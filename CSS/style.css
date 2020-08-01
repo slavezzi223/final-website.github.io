@@ -11,6 +11,7 @@ img {
     box-sizing: border-box;
     max-width: 1600px;
 }
+
 .main-image{
     max-height: 350px;
     max-width: auto;
@@ -63,17 +64,17 @@ main{
 .images-print{
     width: 400px;
     height: auto;
-    margin: 15px;
+    margin: 0 auto;
 }
 .images-photo{
     width: 400px;
     height: auto;
-    margin: 15px;    
+    margin: 0 auto;    
 }
 .design-images{
     width: 400px;
     height: auto;
-    margin: 15px;    
+    margin: 0 auto;    
 }
 .contact-border{
     border: 10px solid white;
@@ -116,4 +117,7 @@ footer{
     color: #660066;
     padding: 10px;  
     text-align: center;
+}
+@media (min-width: 650px) {
+
 }
