@@ -3,25 +3,22 @@ html, body{
     padding: 0;
     
 }
-img {
-    width: 100%;
-    height: auto;
-}
+
 * {
     box-sizing: border-box;
     max-width: 1600px;
 }
 
 .main-image{
-    max-height: 350px;
-    max-width: auto;
+    width: 100%;
+    height: 350px;
 }
 .main-img-design{
-    max-height: 300px;
+    max-height: 350px;
+    width: 100%;
 }
 ul{
     list-style: none;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
     font-size: 20px;
     color: #660066;
     display: grid;
@@ -61,29 +58,18 @@ main{
     border: 10px solid rgb(170, 247, 224);
     margin: 50px;
     }
-.main-print{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto;
+.gallery{
+    margin: 15px;    
 }
-.images-print{
-    width: 100%;
-    height: 300px;
-    margin: 20px;
-    justify-content: center;
-}
-.images-photo{
+.gallery img {
+    transition: 1s;
+    padding: 10px; 
     width: auto;
-    height: 300px;
-    margin: 20px;  
 }
-.design-images{
-    width: auto;
-    height: 300px;
-    margin: 20px;    
-    grid-column-start: 1;
-    grid-column-end: 4;  
+.gallery img:hover{
+    transform: scale(1.1);
 }
+
 .contact-border{
     border: 10px solid white;
     margin: 50px;
@@ -126,4 +112,11 @@ footer{
     padding: 10px;  
     text-align: center;
 }
-@media 
+@media (max-width: 800px){
+    .gallery img {
+        transition: 1s;
+        padding: 10px; 
+        width: 200px;
+    } 
+    
+}
