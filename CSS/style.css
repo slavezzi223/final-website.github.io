@@ -65,27 +65,21 @@ main{
     height: auto;
     margin: 15px;
 }
-.images-print:hover{
-    width: auto;
-    height: auto;
+
 }
 .images-photo{
     width: 400px;
     height: auto;
     margin: 15px;    
 }
-.images-photo:hover{
-    width: auto;
-    height: auto;
+
 }
 .design-images{
     width: 400px;
     height: auto;
     margin: 15px;    
 }
-.design-images:hover{
-    width: auto;
-    height: auto;
+
 }
 .contact-border{
     border: 10px solid white;
