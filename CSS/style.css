@@ -62,17 +62,17 @@ main{
     margin: 50px;
     }
 .images-print{
-    width: 480px;
+    width: auto;
     height: auto;
     margin: 15px;
 }
 .images-photo{
-    width: 480px;
+    width: auto;
     height: auto;
     margin: 15px;    
 }
 .design-images{
-    width: 480px;
+    width: auto;
     height: auto;
     margin: 15px;    
 }
@@ -132,6 +132,6 @@ footer{
     .design-images{
         width: 400px;
         height: auto;
-        margin: 15px;
-    }
+        margin: 15px; 
+    } 
 }
