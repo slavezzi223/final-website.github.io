@@ -65,21 +65,15 @@ main{
     height: auto;
     margin: 15px;
 }
-
-}
 .images-photo{
     width: 400px;
     height: auto;
     margin: 15px;    
 }
-
-}
 .design-images{
     width: 400px;
     height: auto;
     margin: 15px;    
-}
-
 }
 .contact-border{
     border: 10px solid white;
