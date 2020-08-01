@@ -62,17 +62,17 @@ main{
     margin: 50px;
     }
 .images-print{
-    width: 400px;
+    width: 480px;
     height: auto;
     margin: 15px;
 }
 .images-photo{
-    width: 400px;
+    width: 480px;
     height: auto;
     margin: 15px;    
 }
 .design-images{
-    width: 400px;
+    width: 480px;
     height: auto;
     margin: 15px;    
 }
@@ -119,5 +119,19 @@ footer{
     text-align: center;
 }
 @media (min-width: 650px) {
-    
+    .images-print{
+        width: 400px;
+        height: auto;
+        margin: 15px;
+    }
+    .images-photo{
+        width: 400px;
+        height: auto;
+        margin: 15px;    
+    }
+    .design-images{
+        width: 400px;
+        height: auto;
+        margin: 15px;
+    }
 }
